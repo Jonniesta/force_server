@@ -1,6 +1,5 @@
 const router = require('express').Router();
 const User = require('../db').import('../models/user');
-const validateAdmin = require('../middleware/validate-admin')
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 
